@@ -10,7 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/index.js" defer></script>
+
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                         <button class="btn btn-primary">
                             <img src="images/icons/user.png" alt="user"> Войти
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="images/icons/shopping-cart.png" alt="shopping-cart">
                             Корзина
                         </button>
@@ -57,7 +59,7 @@
                             <input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов">
 
                         </div>
-                        <div class="products-wrapper">
+                        <div class="products-wrapper" id="rests-container">
                             <a href="./goods.html" class="products-card">
                                 <div class="products-card__image">
                                     <img src="./images/rests/pizzaplus.jpg" alt="pizzaplus">
@@ -318,6 +320,7 @@
             </div>
         </footer>
     </div>
+
 </body>
 
 </html>
